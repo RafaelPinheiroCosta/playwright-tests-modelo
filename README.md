@@ -153,7 +153,7 @@ npx playwright install
 No arquivo `playwright.config.js`, a URL base está assim:
 
 ```js
-baseURL: process.env.BASE_URL || 'https://carteirinha-digital-2fc1e.web.app'
+baseURL: process.env.BASE_URL || 'http://localhost:5173'
 ```
 
 Isso significa que:
@@ -165,7 +165,7 @@ await page.goto('/login')
 abre:
 
 ```txt
-https://carteirinha-digital-2fc1e.web.app/login
+http://localhost:5173/login
 ```
 
 Para testar localmente, altere via variável de ambiente.
@@ -193,7 +193,7 @@ No arquivo `fixtures/usuarios.js`, existe um admin padrão:
 ```js
 export const adminValido = {
   email: process.env.ADMIN_EMAIL || 'admin@senai.com',
-  senha: process.env.ADMIN_SENHA || '123456',
+  senha: process.env.ADMIN_SENHA || 'admin123',
 };
 ```
 
@@ -256,7 +256,7 @@ npx playwright show-report
 O Codegen grava ações realizadas na tela e gera código Playwright.
 
 ```bash
-npx playwright codegen https://carteirinha-digital-2fc1e.web.app
+npx playwright codegen http://localhost:5173
 ```
 
 Use especialmente quando um seletor falhar.

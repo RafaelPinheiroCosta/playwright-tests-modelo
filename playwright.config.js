@@ -9,7 +9,7 @@ export default defineConfig({
   workers: 1, // Força execução sequencial para evitar conflitos em ambiente de teste compartilhado
   reporter: 'html',
   use: {
-    baseURL: process.env.BASE_URL || 'https://carteirinha-digital-2fc1e.web.app',
+    baseURL: process.env.BASE_URL || 'http://localhost:5173', // Define a URL base para os testes, facilitando a manutenção e flexibilidade
     trace: 'on',// Grava trace de todos os testes para facilitar análise, mesmo os que passam
     screenshot: 'only-on-failure',// Captura screenshot apenas em falhas para facilitar análise sem gerar muitos arquivos
     video: 'on',// Grava vídeo de todos os testes para facilitar análise, mesmo os que passam
