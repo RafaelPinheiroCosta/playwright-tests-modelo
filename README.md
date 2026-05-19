@@ -502,34 +502,6 @@ Testa a tela de login em largura mobile e desktop.
 
 ---
 
-### 10 — Observando API
-
-Arquivo:
-
-```txt
-e2e/10-network-api.spec.js
-```
-
-Mostra como aguardar uma resposta de rede:
-
-```js
-page.waitForResponse(...)
-```
-
----
-
-### 11 — Screenshot
-
-Arquivo:
-
-```txt
-e2e/11-screenshot-trace.spec.js
-```
-
-Mostra como capturar screenshot manual.
-
----
-
 ## 13. Como interpretar falhas
 
 Exemplo:
