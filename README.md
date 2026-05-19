@@ -590,25 +590,7 @@ Em aula, prefira:
 
 ---
 
-## 16. Ordem recomendada para aula
-
-1. Explicar E2E.
-2. Rodar smoke test.
-3. Mostrar `page.goto()`.
-4. Mostrar `locator` e `expect`.
-5. Rodar login com sucesso.
-6. Rodar login inválido.
-7. Explicar Page Object.
-8. Testar listagem de usuários.
-9. Testar cadastro administrativo.
-10. Mostrar Codegen.
-11. Mostrar UI Mode.
-12. Mostrar Trace Viewer.
-13. Comparar Playwright com k6.
-
----
-
-## 17. Próximas evoluções
+## 16. Próximas evoluções
 
 Depois deste projeto, é possível evoluir para:
 
