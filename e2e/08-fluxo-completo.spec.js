@@ -1,3 +1,20 @@
+/**
+ * TESTE 08 — Fluxo completo administrativo
+ *
+ * Objetivo:
+ * Executar um fluxo E2E mais completo: login, cadastro de professor e retorno
+ * para a listagem de usuários.
+ *
+ * O que este teste ensina:
+ * - Encadeamento de várias ações em um único cenário.
+ * - Reuso de Page Objects.
+ * - Teste de fluxo real de negócio.
+ * - Validação de que a aplicação continua navegável após uma criação.
+ *
+ * Quando usar:
+ * Para demonstrar um teste de ponta a ponta mais próximo do uso real do
+ * sistema por um administrador.
+ */
 import { test } from '@playwright/test';
 import { realizarLoginPelaInterface } from '../helpers/auth.js';
 import { CadastroPage } from '../pages/CadastroPage.js';

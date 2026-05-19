@@ -1,3 +1,19 @@
+/**
+ * TESTE 02 — Login com sucesso
+ *
+ * Objetivo:
+ * Validar se um usuário válido consegue autenticar pela interface.
+ *
+ * O que este teste ensina:
+ * - Preenchimento de formulário.
+ * - Clique em botão.
+ * - Uso de Page Object.
+ * - Validação de navegação após login.
+ *
+ * Quando usar:
+ * Para garantir que o fluxo principal de autenticação está funcionando
+ * corretamente na interface web.
+ */
 import { test } from '@playwright/test';
 import { adminValido } from '../fixtures/usuarios.js';
 import { LoginPage } from '../pages/LoginPage.js';
