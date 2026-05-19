@@ -109,8 +109,6 @@ playwright-tests-modelo/
 │   ├── 07-cadastro-administrativo.spec.js
 │   ├── 08-fluxo-completo.spec.js
 │   ├── 09-responsividade.spec.js
-│   ├── 10-network-api.spec.js
-│   └── 11-screenshot-trace.spec.js
 ├── pages/
 │   ├── LoginPage.js
 │   ├── HomePage.js
